@@ -1,0 +1,151 @@
+V "GNAT Lib v14"
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U list%b		list.adb		54df3864 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+U list%s		list.ads		74a86b9a EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.unchecked_deallocation%s
+
+D ada.ads		20241214100605 76789da1 ada%s
+D a-except.ads		20241214100605 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20241214100605 40018c65 ada.io_exceptions%s
+D a-stream.ads		20241214100605 119b8fb3 ada.streams%s
+D a-string.ads		20241214100605 90ac6797 ada.strings%s
+D a-sttebu.ads		20241214100605 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20241214100605 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20241214100605 9eaa38c6 ada.tags%s
+D a-textio.ads		20241214100605 34ef47de ada.text_io%s
+D a-unccon.ads		20241214100605 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20241214100605 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20241214100605 9111f9c1 interfaces%s
+D i-cstrea.ads		20241214100605 ffd01b9d interfaces.c_streams%s
+D list.ads		20250118152439 b700c7ff list%s
+D list.adb		20250118155558 d730b845 list%b
+D system.ads		20241214100605 14286b0f system%s
+D s-conca3.ads		20241214100605 8a7a19a2 system.concat_3%s
+D s-crtl.ads		20241214100605 beb39b9e system.crtl%s
+D s-exctab.ads		20241214100605 91bef6ef system.exception_table%s
+D s-ficobl.ads		20241214100605 dc5161d4 system.file_control_block%s
+D s-imagei.ads		20241214100605 5e131ce0 system.image_i%s
+D s-imgint.ads		20241214100605 67e4edfb system.img_int%s
+D s-parame.ads		20241214100605 3597fc11 system.parameters%s
+D s-putima.ads		20241214100605 17291fe4 system.put_images%s
+D s-secsta.ads		20241214100605 578279f5 system.secondary_stack%s
+D s-soflin.ads		20241214100605 df77073e system.soft_links%s
+D s-stache.ads		20241214100605 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20241214100605 1c9580f6 system.standard_library%s
+D s-stoele.ads		20241214100605 ccded4e8 system.storage_elements%s
+D s-traent.ads		20241214100605 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20241214100605 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20241214100605 b0fcd073 system.val_spec%s
+D s-vaispe.ads		20241214100605 8280550e system.value_i_spec%s
+D s-vauspe.ads		20241214100605 89269ba5 system.value_u_spec%s
+D s-vs_int.ads		20241214100605 06b6b724 system.vs_int%s
+D s-vs_uns.ads		20241214100605 e7f47a27 system.vs_uns%s
+D s-wchcon.ads		20241214100605 d9032363 system.wch_con%s
+G a e
+G c Z s b [isempty list 6 13 none]
+G c Z s b [pop list 8 13 none]
+G c Z s b [push list 9 14 none]
+G c Z s b [append list 10 14 none]
+G c Z s b [gett list 12 13 none]
+G c Z s b [putt list 13 14 none]
+G c Z s b [insert list 14 14 none]
+G c Z s b [delete list 15 14 none]
+G c Z s b [print list 17 14 none]
+G c Z s b [clean list 18 14 none]
+G c Z s b [length list 19 13 none]
+G c Z s s [nodeIP list 23 9 none]
+G c Z s s [free list 33 14 none]
+G c Z s s [listtIP list 28 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 34r20 15|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 785e16 15|1w10 1r27
+515U14*Put 15|48s10
+565U14*Put_Line 15|51s7
+X 11 a-uncdea.ads
+20u15*Unchecked_Deallocation 14|1w10 34r24
+X 14 list.ads
+3K9*list 21E9 35l5 35e9 15|3b14 139l5 139t9
+4R9*ListT 6r26 8r29 9r31 10r33 12r23 13r31 14r33 15r33 17r25 18r32 19r25
+. 28c9 31e14 15|4r26 9r29 21r31 32r33 44r25 54r25 65r22 77r30 89r32 110r32
+. 132r32
+6V13*isEmpty{boolean} 6>22 15|4b13 7l8 7t15 135s12
+6r22 l{4R9} 15|4b22 6r14
+8V13*Pop{integer} 8=18 15|9b13 19l8 19t11 117s15 136s15
+8r18 l{4R9} 15|9b18 10r22 13m7 14r10 15m10
+9U14*Push 9=20 9>38 15|21b14 30l8 30t12 95s8
+9r20 l{4R9} 15|21b20 25r17 26m7 27r10 28m10
+9i38 e{integer} 15|21b38 24r17
+10U14*Append 10=22 10>40 15|32b14 42l8 42t14 97s8
+10r22 l{4R9} 15|32b22 36r10 37m10 39m10 39r10 41m7
+10i40 e{integer} 15|32b40 35r17
+12V13*Gett{integer} 12>19 12>30 15|65b13 75l8 75t12
+12r19 l{4R9} 15|65b18 66r21
+12i30 i{integer} 15|65b29 67r21
+13U14*Putt 13=20 13>38 13>51 15|77b14 87l8 87t12
+13r20 l{4R9} 15|77b19 78r21
+13i38 i{integer} 15|77b37 81r21
+13i51 e{integer} 15|77b50 86r16
+14U14*Insert 14=22 14>40 14>53 15|89b14 108l8 108t14
+14r22 l{4R9} 15|89b21 91r21 95m13 96r23 97m15 100r13
+14i40 i{integer} 15|89b39 92r21 94r9 96r12
+14i53 e{integer} 15|89b52 95r16 97r18 99r24
+15U14*Delete 15=22 15>40 15|110b14 130l9 130t15
+15r22 l{4R9} 15|110b21 111r21 117m19 117r19 126r22 127m10
+15i40 i{integer} 15|110b39 116r9 119r23 126r11
+17U14*Print 17>21 15|44b14 52l8 52t13
+17r21 l{4R9} 15|44b21 45r22 51r32
+18U14*Clean 18=21 15|132b14 138l8 138t13
+18r21 l{4R9} 15|132b21 135r20 136m19 136r19
+19V13*Length{integer} 19>21 15|51s24 54b13 63l8 63t14 96s16 126s15
+19r21 l{4R9} 15|54b21 56r22
+21R9 Node 22r27 23c9 26e14 34r48 15|22r26 33r26 90r31
+22P9 NodePtr(21R9) 25r14 29r15 30r15 34r54 15|10r11 22r11 33r11 45r11 56r11
+. 66r10 78r10 90r16 91r10 111r10 113r12
+24i7*elem{integer} 15|11r24 24m9 35m9 48r17 74r15 86m8 99m16
+25p7*next{22P9} 15|13r20 25m9 39m17 49r17 60r17 70r15 82r15 102r17 105m16
+. 105r26 106m10 120r17 123r17 124m10 124r20 124r25
+29p7*first{22P9} 15|6r16 10r24 13m9 14r12 25r19 26m9 36r12 37m12 45r24 56r24
+. 66r23 78r23 91r23 100r15 111r23
+30p7*last{22P9} 15|15m12 27r12 28m12 39r12 41m9 127m12
+33U14 Free[11|20] 15|17s7 125s8
+X 15 list.adb
+10p7 n{14|22P9} 11r22 13r18 17m13 17r13
+11i7 e{integer} 18r14
+22p7 n{14|22P9} 24r7 25r7 26r18 28r20
+33p7 n{14|22P9} 35r7 37r21 39r25 41r17
+45p7 n{14|22P9} 47r13 48r15 49m10 49r15
+55i7 i{integer} 59m10 59r15 62r14
+56p7 n{14|22P9} 58r13 60m10 60r15
+66p6 n{14|22P9} 70m8 70r13 74r13
+67i6 j{integer} 69r12 71m8 71r13
+78p6 n{14|22P9} 82m8 82r13 86r6
+79i6 index{integer} 81r12 83m8 83r17
+90p6 newNode{14|22P9} 99r8 105r8 106r18
+91p6 n{14|22P9} 100m8 102m10 102r15 105r24 106r8
+92i6 j{integer} 101r14 103m10 103r15
+111p6 n{14|22P9} 120m10 120r15 123r15 124r8 124r18 127r20
+112i6 index{integer} 119r14 121m10 121r19
+113p6 frN{14|22P9} 123m8 125m13 125r13
+114i6 tmp{integer} 117m8
+133i6 tmp{integer} 136m8
+
