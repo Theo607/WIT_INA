@@ -1,1 +1,2 @@
-# Auxiliary random codes
+# Repozytorium przydatnych kodów, algorytmów i zadań
+
