@@ -35,6 +35,7 @@ void hetman(int n){
 
   for(int i = 0; i < n; i++) {
     position[i] = 0;
+    colRow[i] = false;
   }
   
   for(int i = 0; i < 2*n-1; i++) {
