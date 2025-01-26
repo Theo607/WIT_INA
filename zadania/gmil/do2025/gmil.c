@@ -38,6 +38,7 @@ int ile (bool s[])
         if (s[i])
         {
             c++;
+            printf ("%d\n", i);
         }
     }
     return c;
