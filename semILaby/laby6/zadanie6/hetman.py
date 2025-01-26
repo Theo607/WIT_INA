@@ -1,6 +1,9 @@
 import sys
 
+ans = 0
+
 def set(n, i, position, colRow, colDiag1, colDiag2):
+    global ans
     for j in range(1, n+1):
         if not(colRow[j-1] or colDiag1[i+j-1] or colDiag2[i-j-1+n]):
             position[i-1] = j 
@@ -10,6 +13,7 @@ def set(n, i, position, colRow, colDiag1, colDiag2):
             if i < n:
                 set(n, i+1, position, colRow, colDiag1, colDiag2)
             else:
+                ans = ans + 1
                 print(position)
             position[i-1] = 0
             colRow[j-1] = False
@@ -26,6 +30,7 @@ def hetman(n):
 
 def main():
     hetman(int(sys.argv[1]))
+    print("#Solutions: ", ans);
 
 if __name__ == "__main__":
     main()

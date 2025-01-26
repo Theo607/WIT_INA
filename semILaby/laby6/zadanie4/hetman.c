@@ -2,6 +2,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
+int ans = 0;
 
 void set(int n,int i, int position[], bool colRow[], bool colDiag1[], bool colDiag2[]) {
   for(int j = 1; j <= n; j++){
@@ -14,6 +15,7 @@ void set(int n,int i, int position[], bool colRow[], bool colDiag1[], bool colDi
         set(n, i+1, position, colRow, colDiag1, colDiag2);
       }
       else {
+        ans++;
         for(int k = 1; k <= n; k++) {
           printf("%d ", position[k-1]);
         }
@@ -48,4 +50,5 @@ void hetman(int n){
 
 int main(int argc, char* argv[]){
   hetman(atoi(argv[1]));
+  printf("\n#solutions: %d", ans);
 }

@@ -16,6 +16,7 @@ procedure Hetman is
   colDiag2 :colDiag2T;
 
   temp : Integer := 1;
+  ans : Integer := 0;
 
   procedure set(i : Integer) is
     j : Integer := 1;
@@ -32,6 +33,7 @@ procedure Hetman is
           set(i+1);
         else
           k := 1;
+          ans := ans + 1;
           while k <= n loop
             Put(position(k)'Image & " ");
             k := k+1;
@@ -66,6 +68,7 @@ begin
   end loop;
 
   set(1);
+  Put_Line("#Solutions: " & ans'Image);
 end Hetman;
 
 

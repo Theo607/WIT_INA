@@ -9,7 +9,7 @@ RV NO_RECURSION
 RV NO_SECONDARY_STACK
 RV NO_DYNAMIC_SIZED_OBJECTS
 
-U hetman%b		hetman.adb		1c2f7cdc NE OO SU
+U hetman%b		hetman.adb		7f8edad7 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.command_line%s	a-comlin.adb		a-comlin.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -33,7 +33,7 @@ D a-tags.ads		20241214100605 9eaa38c6 ada.tags%s
 D a-textio.ads		20241214100605 34ef47de ada.text_io%s
 D a-tiinio.ads		20241214100605 76699c8f ada.text_io.integer_io%s
 D a-unccon.ads		20241214100605 0e9b276f ada.unchecked_conversion%s
-D hetman.adb		20250126143240 942dd7ce hetman%b
+D hetman.adb		20250126161215 f78c71c5 hetman%b
 D interfac.ads		20241214100605 9111f9c1 interfaces%s
 D i-cstrea.ads		20241214100605 ffd01b9d interfaces.c_streams%s
 D system.ads		20241214100605 14286b0f system%s
@@ -73,25 +73,26 @@ X 4 a-inteio.ads
 18K13*Integer_Text_IO[12|46] 14|2w10 2r35
 X 11 a-textio.ads
 58K13*Text_IO 785e16 14|1w10 1r27
-515U14*Put 14|36s13
-565U14*Put_Line 14|39s11
+515U14*Put 14|38s13
+565U14*Put_Line 14|41s11 71s3
 X 14 hetman.adb
-5U11*Hetman 5b11 69l5 69t11
-6i3 n{integer} 8r33 9r31 10r35 11r29 11r36 25r19 31r16 35r22 50r17 57r19
-. 62r12 63r17
+5U11*Hetman 5b11 72l5 72t11
+6i3 n{integer} 8r33 9r31 10r35 11r29 11r36 26r19 32r16 37r22 52r17 59r19
+. 64r12 65r17
 8A8 positionT(integer)<integer> 13r14
 9A8 colRowT(boolean)<integer> 14r12
 10A8 colDiag1T(boolean)<integer> 15r14
 11A8 colDiag2T(boolean)<integer> 16r13
-13a3 position{8A8} 27m9 36r17 41m9 51m5
-14a3 colRow{9A8} 26r14 28m9 42m9 52m5
-15a3 colDiag1{10A8} 26r27 29m9 43m9 58m5
-16a3 colDiag2{11A8} 26r44 30m9 44m9 64m5
-18i3 temp{integer} 50r9 51r14 52r12 53m5 53r13 56m3 57r9 58r14 59m5 59r13
-. 62m3 63r9 64r14 65m5 65r13
-20U13 set 20b13 20>17 32s11 48l7 48t10 68s3
-20i17 i{integer} 26r36 26r53 27r18 29r18 30r18 31r12 32r15 41r18 43r18 44r18
-21i5 j{integer} 25r14 26r21 26r38 26r55 27r24 28r16 29r20 30r20 42r16 43r20
-. 44r20 46m7 46r12
-22i5 k{integer} 34m11 35r17 36r26 37m13 37r18
+13a3 position{8A8} 28m9 38r17 43m9 53m5
+14a3 colRow{9A8} 27r14 29m9 44m9 54m5
+15a3 colDiag1{10A8} 27r27 30m9 45m9 60m5
+16a3 colDiag2{11A8} 27r44 31m9 46m9 66m5
+18i3 temp{integer} 52r9 53r14 54r12 55m5 55r13 58m3 59r9 60r14 61m5 61r13
+. 64m3 65r9 66r14 67m5 67r13
+19i3 ans{integer} 36m11 36r18 71r29
+21U13 set 21b13 21>17 33s11 50l7 50t10 70s3
+21i17 i{integer} 27r36 27r53 28r18 30r18 31r18 32r12 33r15 43r18 45r18 46r18
+22i5 j{integer} 26r14 27r21 27r38 27r55 28r24 29r16 30r20 31r20 44r16 45r20
+. 46r20 48m7 48r12
+23i5 k{integer} 35m11 37r17 38r26 39m13 39r18
 
