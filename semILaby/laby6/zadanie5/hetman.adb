@@ -15,16 +15,19 @@ procedure Hetman is
   colDiag1 : colDiag1T;
   colDiag2 :colDiag2T;
 
+  temp : Integer := 1;
+
   procedure set(i : Integer) is
     j : Integer := 1;
     k : Integer;
+    
   begin
-    while j <= n loop
+       while j <= n loop
       if not(colRow(j) or colDiag1(i+j) or colDiag2(i-j)) then
         position(i) := j;
         colRow(j) := True;
-        colDiag1(j) := True;
-        colDiag2(j) := True;
+        colDiag1(i+j) := True;
+        colDiag2(i-j) := True;
         if i < n then
           set(i+1);
         else
@@ -33,16 +36,35 @@ procedure Hetman is
             Put(position(k)'Image & " ");
             k := k+1;
           end loop;
-          Put("\n");
+          Put_Line("");
         end if;
         position(i) := 0;
         colRow(j) := False;
         colDiag1(i+j) := False;
         colDiag2(i-j) := False;
       end if;
+      j := j+1;
     end loop;
   end Set;
 begin
+  while temp <= n loop
+    position(temp) := 0;
+    colRow(temp) := False;
+    temp := temp+1;
+  end loop;
+
+  temp := 2;
+  while temp <= 2*n loop
+    colDiag1(temp) := False;
+    temp := temp+1;
+  end loop;
+
+  temp := -n+1;
+  while temp <= n-1 loop
+    colDiag2(temp) := False;
+    temp := temp+1;
+  end loop;
+
   set(1);
 end Hetman;
 
