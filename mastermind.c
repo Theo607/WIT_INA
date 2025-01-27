@@ -44,6 +44,51 @@ int wrongNums(int guessArr[], int numArr[]) {
   return temp;
 }
 
+void MasterMind(int l, int base)
+{
+	int end = End(l, base);
+	int n = 0;
+	int first = 1;
+	int val = base;
+	int arr[end+1][l];
+	for(int i=1;i<l;i++)
+	{
+		first+=val;
+		val*=base;
+	}
+	int variation[l];
+	for(int i=0;i<l;i++)
+	{
+		variation[i]=0;
+	}
+	int count = 0;
+	while(n<=end)
+	{
+		int k = n;
+		int q = 0;
+		while(k>0)
+		{
+			variation[q] = k%base;
+			k /= base;
+			q++;
+		}
+		if(q==l || n < first)
+		{
+			//PrintVariation(variation, l);
+			for(int i=l-1;i>=0;i--)
+			{
+				arr[count][i] = variation[l-i-1]+1;
+			}
+			count++;
+		}
+		n++;
+	}
+	bool Ind[end+1];
+	for(int i=0;i<end+1;i++)
+	{
+		Ind[i] = true;
+	}
+}
 int main() {
 
 }
