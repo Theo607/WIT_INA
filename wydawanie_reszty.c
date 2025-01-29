@@ -62,12 +62,7 @@ void Rest(int coins[], int spares[], int n, int m)
 				if(j+coins[i]<=reach)
 				{
 					//CanGive[j+coins[i]]=true;
-					if(Ammount[j+coins[i]] == -1)
-					{
-						Ammount[j+coins[i]]=Ammount[j]+1;
-						CoinIndex[j+coins[i]]=i;
-					}
-					else if(Ammount[j+coins[i]]>=Ammount[j]+1)
+					if(Ammount[j+coins[i]] == -1 || Ammount[j+coins[i]]>=Ammount[j]+1)
 					{
 						Ammount[j+coins[i]]=Ammount[j]+1;
 						CoinIndex[j+coins[i]]=i;
