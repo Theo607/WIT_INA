@@ -42,27 +42,32 @@ void BackTrack(int coins[], int CoinIndex[], int n, int x, int ammount)
 void Rest(int coins[], int spares[], int n, int m)
 {
 	int reach = Max(spares,m);
-	bool CanGive[reach+1];
+	//bool CanGive[reach+1];
 	int Ammount[reach+1];
 	int CoinIndex[reach+1];
 	for(int i=0;i<reach+1;i++)
 	{
-		CanGive[i]=false;
+		//CanGive[i]=false;
 		CoinIndex[i]=-1;
-		Ammount[i]=reach+1;
+		Ammount[i]=-1;
 	}
-	CanGive[0]=true;
+	//CanGive[0]=true;
 	Ammount[0]=0;
 	for(int i=0;i<n;i++)
 	{
 		for(int j=0;j<reach+1;j++)
 		{
-			if(CanGive[j])
+			if(Ammount[j]!=-1)
 			{
 				if(j+coins[i]<=reach)
 				{
-					CanGive[j+coins[i]]=true;
-					if(Ammount[j+coins[i]]>=Ammount[j]+1)
+					//CanGive[j+coins[i]]=true;
+					if(Ammount[j+coins[i]] == -1)
+					{
+						Ammount[j+coins[i]]=Ammount[j]+1;
+						CoinIndex[j+coins[i]]=i;
+					}
+					else if(Ammount[j+coins[i]]>=Ammount[j]+1)
 					{
 						Ammount[j+coins[i]]=Ammount[j]+1;
 						CoinIndex[j+coins[i]]=i;
@@ -109,7 +114,7 @@ void Rest(int coins[], int spares[], int n, int m)
 
 	for(int i=0;i<m;i++)
 	{
-		if(CanGive[spares[i]])
+		if(Ammount[spares[i]]!=-1)
 		{
 			BackTrack(coins,CoinIndex,n,spares[i],Ammount[spares[i]]);
 		}
