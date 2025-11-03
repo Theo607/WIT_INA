@@ -1,0 +1,50 @@
+MariaDB [sakila]> SOURCE C:\Users\mateu\Documents\Workspace\Studia\BazyDanych\Laboratoria\Rozwiazania\zadanie1.sql
++----------------------------+
+| Tables_in_sakila           |
++----------------------------+
+| actor                      |
+| actor_info                 |
+| address                    |
+| category                   |
+| city                       |
+| country                    |
+| customer                   |
+| customer_list              |
+| film                       |
+| film_actor                 |
+| film_category              |
+| film_list                  |
+| film_text                  |
+| inventory                  |
+| language                   |
+| nicer_but_slower_film_list |
+| payment                    |
+| rental                     |
+| sales_by_film_category     |
+| sales_by_store             |
+| staff                      |
+| staff_list                 |
+| store                      |
++----------------------------+
+23 rows in set (0.001 sec)
+
++----------------------+---------------------------------------------------------------------+------+-----+---------------------+-------------------------------+
+| Field                | Type                                                                | Null | Key | Default             | Extra                         |
++----------------------+---------------------------------------------------------------------+------+-----+---------------------+-------------------------------+
+| film_id              | smallint(5) unsigned                                                | NO   | PRI | NULL                | auto_increment                |
+| title                | varchar(128)                                                        | NO   | MUL | NULL                |                               |
+| description          | text                                                                | YES  |     | NULL                |                               |
+| release_year         | year(4)                                                             | YES  |     | NULL                |                               |
+| language_id          | tinyint(3) unsigned                                                 | NO   | MUL | NULL                |                               |
+| original_language_id | tinyint(3) unsigned                                                 | YES  | MUL | NULL                |                               |
+| rental_duration      | tinyint(3) unsigned                                                 | NO   |     | 3                   |                               |
+| rental_rate          | decimal(4,2)                                                        | NO   |     | 4.99                |                               |
+| length               | smallint(5) unsigned                                                | YES  |     | NULL                |                               |
+| replacement_cost     | decimal(5,2)                                                        | NO   |     | 19.99               |                               |
+| rating               | enum('G','PG','PG-13','R','NC-17')                                  | YES  |     | G                   |                               |
+| special_features     | set('Trailers','Commentaries','Deleted Scenes','Behind the Scenes') | YES  |     | NULL                |                               |
+| last_update          | timestamp                                                           | NO   |     | current_timestamp() | on update current_timestamp() |
++----------------------+---------------------------------------------------------------------+------+-----+---------------------+-------------------------------+
+13 rows in set (0.028 sec)
+
+MariaDB [sakila]> notee
