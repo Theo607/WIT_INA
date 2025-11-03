@@ -1,0 +1,66 @@
+@startuml
+actor User
+participant "App" as A
+participant "Client" as C
+participant "Invoice" as I
+participant "Product" as P
+participant "Writer" as W
+
+User -> A: Start application
+A -> A: run()
+A -> A: clientInit()
+A -> C: Create new Client
+C --> A: Client object
+A -> I: Create new Invoice
+I --> A: Invoice object
+
+User -> A: Enter command
+A -> A: handleCommand(cmd)
+
+alt Command: list
+    A -> I: getProducts()
+    I --> A: List of products
+    A -> User: Display products
+end
+
+alt Command: add
+    A -> User: Prompt for product details
+    User --> A: Product details
+    A -> P: Create new Product
+    P --> A: Product object
+    A -> I: addProduct(product)
+end
+
+alt Command: edit
+    A -> I: getProducts()
+    I --> A: List of products
+    A -> User: Display products
+    A -> User: Prompt for product ID and new details
+    User --> A: Product ID and details
+    A -> I: editProduct(id, details)
+end
+
+alt Command: delete
+    A -> I: getProducts()
+    I --> A: List of products
+    A -> User: Display products
+    A -> User: Prompt for product ID
+    User --> A: Product ID
+    A -> I: removeProduct(id)
+end
+
+alt Command: save
+    A -> W: Create Writer with Invoice
+    W -> W: writeToPDF()
+    W --> A: Save PDF
+end
+
+alt Command: help
+    A -> User: Display help message
+end
+
+alt Command: quit
+    A -> User: Exit application
+    A -> A: System.exit(0)
+end
+@enduml

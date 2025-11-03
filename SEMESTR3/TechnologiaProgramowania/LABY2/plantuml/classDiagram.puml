@@ -1,0 +1,56 @@
+@startuml
+class App {
+    - Invoice current_invoice
+    + void run()
+    - void handleCommand(String cmd)
+    - void handleAdd()
+    - void listProducts()
+    - void handleEdit()
+    - void handleDelete()
+    - void handleHelp()
+    - void handleSave()
+    - Client clientInit()
+}
+
+class Client {
+    + String name
+    + String address
+    + String nip
+    + Client(String name, String address, String nip)
+    + String toString()
+}
+
+class Invoice {
+    + Client client
+    + Vector<Product> products
+    + Date date
+    + Invoice(Client client)
+    + Client getClient()
+    + void addProduct(Product product)
+    + void removeProduct(int id)
+    + void editProduct(int id, String name, double price, double quantity, String unit)
+    + Vector<Product> getProducts()
+    + String toString()
+}
+
+class Product {
+    + String name
+    + double price
+    + double quantity
+    + String unit
+    + Product(String name, double price, double quantity, String unit)
+    + String toString()
+}
+
+class Writer {
+    - Invoice invoice
+    + Writer(Invoice invoice)
+    + void writeToPDF()
+}
+
+App --> Invoice : uses
+App --> Client : uses
+Invoice --> Product : contains
+Invoice --> Client : contains
+Writer --> Invoice : depends on
+@enduml
