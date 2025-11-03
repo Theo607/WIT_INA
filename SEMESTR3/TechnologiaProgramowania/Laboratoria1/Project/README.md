@@ -1,2 +1,0 @@
-# SProject
-Simple test project.
