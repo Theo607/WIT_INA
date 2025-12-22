@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/exceptions
+END
+CouldNotStartInstanceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/exceptions/CouldNotStartInstanceException.java
+END
+CouldNotConnectException.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/exceptions/CouldNotConnectException.java
+END
+NotUniqueDBInstanceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/exceptions/NotUniqueDBInstanceException.java
+END

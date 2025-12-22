@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/151/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance
+END
+Toaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/151/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance/Toaster.java
+END
+ApplianceCommunicationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/151/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance/ApplianceCommunicationException.java
+END
+Appliance.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/151/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance/Appliance.java
+END
+AbstractAppliance.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/151/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/appliance/AbstractAppliance.java
+END

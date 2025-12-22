@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/134/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/commands/model
+END
+DBServerInstanceProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/commands/model/DBServerInstanceProperties.java
+END
+DBServerInstanceGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/commands/model/DBServerInstanceGroup.java
+END
+DBServerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/commands/model/DBServerInstance.java
+END
+DBServerInstanceStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/commands/model/DBServerInstanceStatus.java
+END
+CommandFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/133/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/commands/model/CommandFactory.java
+END

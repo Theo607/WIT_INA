@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/154/designpatterns/trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/fakes
+END
+FakeStateChangeMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/154/designpatterns/trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/fakes/FakeStateChangeMapper.java
+END
+FakeApplianceDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/151/designpatterns/trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/fakes/FakeApplianceDAO.java
+END
+FakeAlarmMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/154/designpatterns/trunk/observer/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/observer/fakes/FakeAlarmMapper.java
+END

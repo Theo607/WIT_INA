@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/155/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper
+END
+ApplianceEventMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/152/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/ApplianceEventMapper.java
+END
+EventMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/155/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/EventMapper.java
+END
+LinkedListQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/151/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/LinkedListQueue.java
+END
+MapperChain.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/151/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/MapperChain.java
+END
+AbstractEventMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/155/designpatterns/trunk/observer/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/observer/mapper/AbstractEventMapper.java
+END

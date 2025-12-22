@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/136/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model
+END
+DBServerInstanceGroupCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/133/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/DBServerInstanceGroupCommand.java
+END
+QueryInstanceStatusCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/QueryInstanceStatusCommand.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/134/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/Command.java
+END
+StartInstanceGroupCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/StartInstanceGroupCommand.java
+END
+DBServerInstanceCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/133/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/DBServerInstanceCommand.java
+END
+StartInstanceCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/StartInstanceCommand.java
+END
+StopInstanceGroupCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/StopInstanceGroupCommand.java
+END
+CommandJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/136/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/CommandJob.java
+END
+StopInstanceCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/command/model/StopInstanceCommand.java
+END

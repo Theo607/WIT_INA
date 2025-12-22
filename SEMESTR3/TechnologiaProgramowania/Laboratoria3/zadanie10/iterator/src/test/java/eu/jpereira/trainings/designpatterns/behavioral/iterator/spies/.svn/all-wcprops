@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/133/designpatterns/trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/spies
+END
+SpyDBServerInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/spies/SpyDBServerInstance.java
+END
+SpyCommandScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/133/designpatterns/trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/spies/SpyCommandScheduler.java
+END
+SpyDBServerInstanceGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/spies/SpyDBServerInstanceGroup.java
+END

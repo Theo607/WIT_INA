@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/133/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/service
+END
+GroupNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/service/GroupNotFoundException.java
+END
+InstanceNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/service/InstanceNotFoundException.java
+END
+ReferenceDBServerInstanceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/133/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/service/ReferenceDBServerInstanceService.java
+END
+DBServerInstanceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/132/designpatterns/trunk/iterator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/iterator/service/DBServerInstanceService.java
+END
