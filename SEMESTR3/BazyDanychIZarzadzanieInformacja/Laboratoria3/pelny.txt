@@ -1,0 +1,1 @@
+mysqldump -u [uzytkownik] -p ZadanieBD > zadanie_bd_backup.sql

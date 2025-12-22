@@ -1,0 +1,5 @@
+Różnica między Backupem Pełnym a Różnicowym:
+
+    Backup Pełny (Full Backup): Kopiuje całą bazę danych lub wszystkie wybrane dane. Jest to najbardziej kompleksowy typ backupu, ale wymaga najwięcej miejsca i czasu na wykonanie. Przywracanie danych jest najszybsze, ponieważ wymaga tylko jednej operacji.
+
+    Backup Różnicowy (Differential Backup): Kopiuje tylko te dane, które zmieniły się od czasu ostatniego pełnego backupu. Wymaga mniej czasu i miejsca niż pełny backup. Aby przywrócić dane, należy najpierw przywrócić ostatni pełny backup, a następnie ostatni backup różnicowy.

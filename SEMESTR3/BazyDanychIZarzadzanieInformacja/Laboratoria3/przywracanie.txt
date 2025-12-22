@@ -1,0 +1,1 @@
+mysql -u [uzytkownik] -p < zadanie_bd_backup.sql
